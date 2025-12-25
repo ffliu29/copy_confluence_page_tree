@@ -16,8 +16,6 @@
 
 2. **安装依赖库**：
 
-   Bash
-
    ```
    pip install streamlit requests streamlit-tree-select
    ```
@@ -32,8 +30,6 @@
 ### 1. 启动工具
 
 在项目根目录下执行：
-
-Bash
 
 ```
 streamlit run app.py
@@ -70,7 +66,6 @@ streamlit run app.py
 
 ## 📂 项目结构
 
-Plaintext
 
 ```
 copyCon/
@@ -90,7 +85,6 @@ copyCon/
 
 若需共享给同事，启动时请指定地址：
 
-Bash
 
 ```
 streamlit run app.py --server.address 0.0.0.0
